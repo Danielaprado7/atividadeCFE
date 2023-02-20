@@ -1,9 +1,4 @@
-/********
-
-Cabeçalho do site - menu 
-
-
-*********/
+/*cabeçalho*/
 
 header img {
     height: 70px;
@@ -11,26 +6,23 @@ header img {
 }
 
 
+/*Conteudo principal*/
 
-/******************
 
-Conteudo
+/*banner*/
+#section-banners img {
+    height: 500px;
+}
 
-************/
-
-/**/
+/*Produtos vendidos*/
 
 #section-vendidos {
     text-align: center;
 }
-
 #section-vendidos h2 {
-    text-align: center;
     font-weight: bold;
-
     padding: 20px;
 }
-
 #section-vendidos img {
     height: 300px;
     border-radius: 10px;
@@ -48,59 +40,49 @@ Conteudo
     font-weight: bold;
 }
 
-/*************
-    Rodape
-*************/
+/*Rodapé*/
 
 footer {
     text-align: center;
+    position: relative;
+    bottom: 0;
 }
 
 footer p {
-    text-align: center;
     font-weight: bold;
-
     padding: 10px;
+    text-align: center;
+
 }
 
-/*Botão ao Voltar topo*/
+/*Botão Voltar topo*/
 
 #voltar-topo {
     position: fixed;
     bottom: 5px;
     right: 50px;
-
 }
 
-/* ****************
-    página de login
-    
-    ********************/
+/* página de login  */
+#section-login {
+    margin-top: 100px;
+}
 
 #section-login h1 {
     text-align: center;
-
 }
-
 #section-login input {
     width: 100%;
-
 }
 
-#section-banners img {
-    height: 500px;
-}
-
-
-/* Box de informações de cadastro*/
-#panel,
-#flip {
+/* Formulário de cadastro*/
+#section-cadastro {
     padding: 5px;
     text-align: center;
     background-color: #fff;
 }
-
-#panel {
+#form-cadastrar {
     padding: 50px;
     display: none;
 }
+
